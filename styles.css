@@ -54,3 +54,32 @@ footer {
         margin: 10px 0;
     }
 }
+#about-me {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .about-me-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .about-me-text {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-me-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .about-me-image img {
+    max-width: 80%;
+    height: 50%;
+    border-radius: 5px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+  }
+  
